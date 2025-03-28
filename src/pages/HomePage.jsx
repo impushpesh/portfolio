@@ -1,4 +1,5 @@
-import React from 'react';
+import { ReactLenis} from 'lenis/react';
+
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import About from '../components/About';
@@ -8,7 +9,7 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 function HomePage() {
   return (
-    <div >
+    <ReactLenis root> 
       <Header />
       <main>
         <Hero />
@@ -18,7 +19,7 @@ function HomePage() {
         <Contact/>
       </main>
       <Footer />
-    </div>
+    </ReactLenis>
   );
 }
 
