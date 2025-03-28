@@ -19,9 +19,18 @@ function Hero() {
               Available for work
             </div>
           </div>
-          <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10 font-preahvihear">
-            Hi, I'm Pushpesh, a full stack developer.
+
+          {/* Updated Headline */}
+          <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 font-preahvihear">
+            Hi,
           </h2>
+          <h2 className="max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] text-7xl font-preahvihear mt-2">
+            I'm <span className="text-green-500">Pushpesh</span>
+          </h2>
+          <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mb-8 lg:mb-10 mt-2 font-preahvihear">
+            a full stack developer.
+          </h2>
+
           <div className="text-lg text-zinc-700 leading-relaxed">
             <p>Passionate about crafting beautiful, functional experiences.</p>
             <p>Experienced in full stack development and modern web tech.</p>

@@ -31,10 +31,21 @@ const skillItem = [
     label: "CSS",
     desc: "Styling"
   },
+  
+  {
+    imgSrc: tailwind,
+    label: "TailwindCSS",
+    desc: "Utility-first CSS"
+  },
   {
     imgSrc: javascript,
     label: "JavaScript",
     desc: "Language"
+  },
+  {
+    imgSrc: typescript,
+    label: "TypeScript",
+    desc: "Superset of JavaScript"
   },
   {
     imgSrc: react,
@@ -45,11 +56,6 @@ const skillItem = [
     imgSrc: redux,
     label: "Redux",
     desc: "State Management"
-  },
-  {
-    imgSrc: tailwind,
-    label: "TailwindCSS",
-    desc: "Utility-first CSS"
   },
   {
     imgSrc: nextjs,
@@ -78,16 +84,7 @@ const skillItem = [
     label: "MySQL",
     desc: "SQL Database"
   },
-  {
-    imgSrc: python,
-    label: "Python",
-    desc: "Language"
-  },
-  {
-    imgSrc: typescript,
-    label: "TypeScript",
-    desc: "Superset of JavaScript"
-  },
+
 
   // Tools & Others
   {
@@ -104,7 +101,13 @@ const skillItem = [
     imgSrc: C,
     label: "C++",
     desc: "Language"
-  }
+  },
+  
+  {
+    imgSrc: python,
+    label: "Python",
+    desc: "Language"
+  },
 ];
 
 function Skills() {
