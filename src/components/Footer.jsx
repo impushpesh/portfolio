@@ -44,7 +44,7 @@ const Footer = () => {
       <div className="container">
         <div className="lg:grid lg:grid-cols-2">
           <div className="mb-10">
-            <h2 className="headline-1 mb-8 lg:max-w-[12ch]">Drop a mail at</h2>
+            <h2 className="headline-1 mb-8 lg:max-w-[12ch] font-preahvihear">Drop a mail at</h2>
             <a href="mailto:ppant9418@gmail.com" className="inline-block bg-sky-500 text-white px-6 py-3 rounded-xl hover:bg-sky-600 transition-colors">
               Email
             </a>

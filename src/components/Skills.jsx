@@ -34,7 +34,7 @@ const skillItem = [
   {
     imgSrc: javascript,
     label: "JavaScript",
-    desc: "Programming Language"
+    desc: "Language"
   },
   {
     imgSrc: react,
@@ -81,7 +81,7 @@ const skillItem = [
   {
     imgSrc: python,
     label: "Python",
-    desc: "Programming Language"
+    desc: "Language"
   },
   {
     imgSrc: typescript,
@@ -111,8 +111,8 @@ function Skills() {
   return (
     <section className="section">
       <div className="container">
-        <h2 className="headline-2">Tech Stack</h2>
-        <p className="text-zinc-400 mt-3 mb-8 mx-w-[50ch]">The tech stack on which i have experience working with</p>
+        <h2 className="headline-2">Skills & Technologies</h2>
+        <p className="text-zinc-400 mt-3 mb-8 mx-w-[50ch]">Here are the technologies I've worked with.</p>
 
         <div className="grid gap-3 grid-cols-[repeat(auto-fill,minmax(200px,1fr))]">
           {
