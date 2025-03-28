@@ -29,7 +29,7 @@ const Contact = () => {
         </div>
 
         <div className="lg:flex lg:items-center lg:justify-end">
-          <form action="" method="POST" className="w-full max-w-lg">
+          <form action="https://getform.io/f/avrwdjwa" method="POST" className="w-full max-w-lg">
             <div className="md:grid md:grid-cols-2 md:gap-2">
               <div className="mb-4">
                 <label htmlFor="name" className="label">Name</label>
