@@ -3,23 +3,35 @@ import Me from "../assets/Me.png";
 
 function Hero() {
   return (
-    <div className="flex items-center justify-between h-screen px-32">
-      {/* Left Side - Text */}
-      <div className="text-left">
-        <h1 className="text-8xl font-preahvihear font-bold leading-tight animate-fade-in-up">
-          Hi <br />
-          I'm <span className="text-purple-500">Pushpesh</span>
-        </h1>
-        <p className="text-2xl text-gray-400 max-w-xl mt-6 animate-fade-in-down">
-          Full-Stack Developer crafting clean & efficient web solutions.
-        </p>
-      </div>
+    <section id="home" className="pt-28 lg:pt-36">
+      <div className="container lg:grid lg:grid-cols-2 items:center lg:gap-10">
+        <div>
+          <div className="flex items-center gap-3">
+            <figure className="img-box w-9 h-9 rounded-lg">
+              <img src={Me} alt="Avatar" width={40} height={40} className="img-cover"/>
+            </figure>
 
-      {/* Right Side - Larger Image, Adjusted Position */}
-      <div className="mr-10"> 
-        <img src={Me} alt="me" className="w-[400px] h-[400px] object-cover rounded-full" />
+            <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
+              <span className="relative w-2 h-2 rounded-full bg-green-500">
+                <span className="absolute inset-0 rounded-full bg-green-500 animate-ping"></span>
+              </span>
+              Available for work
+            </div>
+          </div>
+          <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">Hi, I'm Pushpesh, full stack developer </h2>
+          <div className="flex items-center gap-3">
+            ButtonPrimary
+            ButtonOutline
+          </div>
+        </div>
+
+        <div className="hidden lg:block">
+          <figure className="w-full max-w-[480px] ml-auto overflow-hidden">
+            <img src={Me} alt="Avatar" width={656} height={800} className="w-full"/>
+          </figure>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
 
