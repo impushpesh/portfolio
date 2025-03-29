@@ -77,8 +77,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-
-          <div className="flex items-center justify-between pt-10 mb-8">
+          <div className=" pt-10 mb-8">
             <p className="text-zinc-500 text-sm">Made by Pushpesh Pant</p>
           </div>
         </div>
