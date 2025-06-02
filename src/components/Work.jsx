@@ -12,7 +12,8 @@ const works = [
     description:
       "A MERN-based eCommerce app featuring React, Redux, JWT auth & PayPal integration.",
     tags: ["MERN", "eCommerce"],
-    projectLink: "https://github.com/impushpesh/SwiftBuy",
+    liveLink: "https://swiftbuy-1.onrender.com/",
+    githubLink: "https://github.com/impushpesh/SwiftBuy",
   },
   {
     imgSrc: tt,
@@ -20,7 +21,8 @@ const works = [
     description:
       "A real-time social media app with JWT auth, post interactions & notifications.",
     tags: ["MERN", "Social", "Real-time"],
-    projectLink: "https://github.com/impushpesh/twitterClone",
+    liveLink: "",
+    githubLink: "https://github.com/impushpesh/twitterClone",
   },
   {
     imgSrc: tk,
@@ -28,7 +30,8 @@ const works = [
     description:
       "A chat application using MERN & Socket.IO for secure, real-time messaging.",
     tags: ["MERN", "Full stack", "Real-time"],
-    projectLink: "https://github.com/impushpesh/Talky",
+    liveLink: "https://talky-1.onrender.com",
+    githubLink: "https://github.com/impushpesh/Talky",
   },
   {
     imgSrc: mgt,
@@ -36,7 +39,8 @@ const works = [
     description:
       "A backend platform for managing students, teachers & courses with role-based access.",
     tags: ["Backend", "API"],
-    projectLink: "https://github.com/impushpesh/EduManager",
+    liveLink: "",
+    githubLink: "https://github.com/impushpesh/EduManager",
   },
   {
     imgSrc: prt,
@@ -44,10 +48,10 @@ const works = [
     description:
       "A creative portfolio showcasing projects and skills with a modern, responsive design.",
     tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/impushpesh/portfolio",
+    liveLink: "https://www.pushpesh.xyz/",
+    githubLink: "https://github.com/impushpesh/portfolio",
   },
 ];
-
 
 const Work = () => {
   return (
@@ -55,16 +59,19 @@ const Work = () => {
       <div className="container">
         <h2 className="headline-2 mb-8">My Works</h2>
         <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,minmax(280px,1fr))]">
-          {works.map(({ imgSrc, title, description, tags, projectLink }, key) => (
-            <ProjectCard
-              key={key}
-              imgSrc={imgSrc}
-              title={title}
-              description={description}
-              tags={tags}
-              projectLink={projectLink}
-            />
-          ))}
+          {works.map(
+            ({ imgSrc, title, description, tags, liveLink, githubLink }, key) => (
+              <ProjectCard
+                key={key}
+                imgSrc={imgSrc}
+                title={title}
+                description={description}
+                tags={tags}
+                liveLink={liveLink}
+                githubLink={githubLink}
+              />
+            )
+          )}
         </div>
       </div>
     </section>
